@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(to right, #c33764, #1d2671);
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin-top: 50px;
+}
+
+.app-title {
+  font-family: "Rock Salt", cursive;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.form-control::placeholder {
+  color: #ffffff;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+}
+
+.btn-secondary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #0069d9;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.item .row {
+  margin-bottom: 10px;
+}

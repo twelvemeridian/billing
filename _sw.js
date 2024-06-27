@@ -6,7 +6,7 @@ self.addEventListener("install", (event) => {
         "/index.html",
         "/manifest.json",
         "/script.js",
-        "/stylesheet.css",
+        "/styles.css",
         "/cover-landscape.png",
         // Add other required assets, e.g., CSS, JavaScript, and image files
       ]);
